@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "HackJNU",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Sunny Dhama",
+  "license": "ISC",
+  "dependencies": {
+    "@maticnetwork/maticjs": "2.0.0-beta.6",
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.9.2",
+    "maticjs": "^1.0.1",
+    "nodemon": "^2.0.2",
+    "uuid": "^3.4.0",
+    "web3": "^2.0.0-alpha.1"
+  }
+}
